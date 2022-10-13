@@ -19,16 +19,22 @@ In order to identify cryptocurrency clusters, we began by using the K-Means meth
 
 ![elbow](https://github.com/brianbutler08/Cryptocurrencies/blob/main/Visualizations/elbow.png)
 
+## Visualizations
 
-
-This 3-D scatter plot was obtained using the PCA algorithm to reduce the crytocurrencies dimensions to three principal components.
-
-# Summary
-
-
-
-![table](https://github.com/brianbutler08/Cryptocurrencies/blob/main/Visualizations/table.png)
+After applying PCA to our cryptocurrency dataset in order to reduce the dimensions to three principal components, we generated a 3D scatter plot using Plotly Express.
 
 ![3D](https://github.com/brianbutler08/Cryptocurrencies/blob/main/Visualizations/3D.png)
 
+Finally, we summarized our analysis in a final table of tradable cryptocurrencies that could be shared with investors. 
+
+![table](https://github.com/brianbutler08/Cryptocurrencies/blob/main/Visualizations/table.png)
+
+After scaling the appropriate data fields, we generated a scatter plot with "TotalCoinsMined" on the x-axis and "TotalCoinSupply" on the y-axis.
+
 ![scatter](https://github.com/brianbutler08/Cryptocurrencies/blob/main/Visualizations/Screen%20Shot%202022-10-12%20at%209.29.51%20PM.png)
+
+# Summary
+
+As a result of this project, we have identified 532 cryptocurrencies, clustered using various unsupervised machine learning algorithms. The report includes what cryptocurrencies are on the trading market and how they could be grouped to create a classification system for this new investment opportunity.
+
+
